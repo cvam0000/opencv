@@ -1,0 +1,17 @@
+There are four type of packages . Install one of them . Do not 
+inostall 
+multiple different packages.
+* Packages for standard Desktop environment GNU/LINUX
+a) pip install opencv-python (if you need only main module)
+a.1) pip install opencv-contrib-python (if you need both main and 
+contrib module)
+
+
+b) Packages for server (headless) environments
+
+These packages do not contain any GUI functionality. They are smaller 
+and suitable for more restricted environments.
+
+ - pip install opencv-python-headless ( if you need only main 
+modules )
+ - pip install opencv-contrib-python-headless ( if you need both )
